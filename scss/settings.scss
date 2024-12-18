@@ -1,0 +1,39 @@
+@import './blocks/header';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: MyRubik;
+}
+:root {
+    --myBackground: #F4F4F2;
+    --myBackgroundText: #291E0F;
+    --mySurface: #FFFFFF;
+    --mySurfaceText: #414141;
+    --myPrimary: #FF6633;
+    --myPrimaryText: #FFFFFF;
+    --mySecondary: #70C05B;
+    --mySecondaryText: #FFFFFF;
+    --myLightest: #F3F2F1;
+    --myLight: #BFBFBF;
+    --myHard: #8F8F8F;
+    --myHardest: #606060;
+    --mySuccess: #008C49;
+    --myInfo: #1CB9FC;
+    --myWarning: #FCA21C;
+    --myError: #D80000;
+}
+
+@font-face {
+  font-family: "MyRubik";
+  src: url("../font/Rubik-Regular.woff2") format("woff2"), url("../font/Rubik-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
